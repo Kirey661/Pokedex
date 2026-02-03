@@ -1,0 +1,78 @@
+# POKÉDEX - By Kire Pérez
+Detta är en enkel Pokedéx app byggd med React och Vite.
+
+* **API-dokumentation:** [https://pokeapi.co/]
+* **Bildkälla:** PokeAPI Sprites (GitHub Raw)
+  `const imgUrl = https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+
+# Syfte
+Detta projekt skapades som en del av min utbildning för att praktisera och visa mina
+kunskaper i React. Målet var att bygga en SPA med tekniska utmaningar som:
+* Komponenter
+* Routing
+* API & Async
+* State management
+* Styling
+
+# Hur man startar projektet?
+
+1. **Klona projektet**
+Kopiera koden från GitHub [koden].
+
+2. **Gå till terminalen och skriv:**
+git clone [koden]
+cd pokedex
+
+3. Installera alla bibliotek genom att skriva i terminalen:
+npm install 
+
+4. Starta appen i terminalen genom att skriva:
+npm run dev 
+
+
+
+Krav som uppfylls:
+A SPA + ROUTING. 
+[x] React SPA med React Route. 
+[x] Minst 3 routes. (Home, Pokedex, About)
+[x] Navigation via React Router - Link , NavLink.
+B Komponentstruktur + Props
+[x] Komponenter: Footer, Navbar, Pokemoncard. 
+[x] Props: skickar data mellan komponenter.
+
+C State + Interaktivitet 
+[x] useState används för att hantera data som förändras. I pokedex.jsx, för att spara listan och för att hålla koll på när datan laddas. 
+
+D Data + API
+[x] useEffect, för att hömta data precis när sidan laddas. 
+[x] Fetch, riktigt data från en extern PokeAPI
+[x] Loading state, som visas text medans data hämtas. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🦆🦆 cuack
