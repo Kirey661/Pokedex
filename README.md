@@ -30,24 +30,25 @@ npm install
 npm run dev 
 
 
+## Krav som uppfylls
 
-Krav som uppfylls:
-A SPA + ROUTING. 
-[x] React SPA med React Route. 
-[x] Minst 3 routes. (Home, Pokedex, About)
-[x] Navigation via React Router - Link , NavLink.
-B Komponentstruktur + Props
-[x] Komponenter: Footer, Navbar, Pokemoncard. 
-[x] Props: skickar data mellan komponenter.
+### A. SPA + ROUTING
+- [x] **React SPA** med React Router.
+- [x] **Minst 3 routes**: (Home, Pokedex, About).
+- [x] **Navigation**: via React Router using `Link` and `NavLink`.
 
-C State + Interaktivitet 
-[x] useState används för att hantera data som förändras. I pokedex.jsx, för att spara listan och för att hålla koll på när datan laddas. 
+### B. Komponentstruktur + Props
+- [x] **Komponenter**: Footer, Navbar, Pokemoncard.
+- [x] **Props**: Skickar data mellan komponenter.
 
-D Data + API
-[x] useEffect, för att hömta data precis när sidan laddas. 
-[x] Fetch, riktigt data från en extern PokeAPI
-[x] Loading state, som visas text medans data hämtas. 
+### C. State + Interaktivitet
+- [x] **`useState`**: Används för att hantera data som förändras.
+- [x] **`pokedex.jsx`**: För att spara listan och för att hålla koll på när datan laddas.
 
+### D. Data + API
+- [x] **`useEffect`**: För att hämta data precis när sidan laddas.
+- [x] **Fetch**: Riktigt data från en extern [PokeAPI](https://pokeapi.co/).
+- [x] **Loading state**: Som visas text medans data hämtas.
 
 
 
