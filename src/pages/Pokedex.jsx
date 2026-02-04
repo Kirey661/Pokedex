@@ -54,10 +54,10 @@ function Pokedex() {
         />
 
         <div className="pokemon-grid">
-          {filteredPokemons.map((pokemon, index) => {
+          {filteredPokemons.map((pokemon) => {
             const pokemonId = pokemon.url.split("/")[6];
             // https://pokeapi.co/api/v2/pokemon?limit=151
-            // "https [1]://[tomt]] pokeapi.com [2] /api [3]/ v2 [4] / pokemon?limit=151 [5]  
+            // "https [1]://[tomt]] pokeapi.com [2] /api [3]/ v2 [4] / pokemon?limit=151 [5]
             return (
               <PokemonCard key={pokemonId} id={pokemonId} name={pokemon.name} />
             );
