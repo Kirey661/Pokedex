@@ -26,6 +26,12 @@ function About() {
           <p><strong>Dev Type:</strong> Frontend</p>
           <p><strong>Skill:</strong> HTML, CSS, JavaScript (sometimes)</p>
           <p><strong>Weakness:</strong> Bugs</p>
+          <p>
+            <strong>Repo:</strong>{' '}
+            <a href="https://github.com/Kirey661/Pokedex" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </p>
           
           <div className="bolt bottom-left"></div>
           <div className="bolt bottom-right"></div>
