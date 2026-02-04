@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function PokemonCard({ name, id }) { 
-
+function PokemonCard({ name, id }) {
   const imgUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 
   return (
